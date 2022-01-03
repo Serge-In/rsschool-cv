@@ -1,31 +1,31 @@
 rsschool-cv
 
-#Sergei Iniutkin
+# Sergei Iniutkin
 
-###Contact information
+### Contact information
 
-*E-mail:solnanebe@gmail.com
-*Discord: Serge-In
-*GitHub: Serge-In
+* E-mail: solnanebe@gmail.com
+* Discord: Serge-In
+* GitHub: Serge-In
 
-###About myself
+### About myself
 
 Hello, my name is Sergei. I am a back-end developer of CRM and ERP systems within 7 years. The scope of my experience includes data analysis and development applications for trading on the stock exchange, financial management, accounting and astronomy calculations. I am currently studying web technology. My goal is to become a full-stack developer in a year.
 
-###Technologies
+### Technologies
 
 .Net (C#, VB), VBA, SQL, Lua, JavaScript, Html, Css, Git, VisualStudio, VScode
 
-###Code example
+### Code example
 
-###Experience
+### Experience
 
 
-###Education
+### Education
 
 Saint-Petersburg state university of economics, Microsoft Learn, ITVDN, Udemy, RS School, Self-Studing
 
-###Languages
+### Languages
 
-*English – A2
-*Russian - Native
+* English – A2
+* Russian - Native
