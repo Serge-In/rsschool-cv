@@ -22,7 +22,6 @@ Hello, my name is Sergei. I am a developer of CRM and ERP systems within 7 years
 
 ### Experience
 
-
 ### Education
 
 Saint-Petersburg state university of economics, Microsoft Learn, ITVDN, Udemy, RS School, Self-Studing
