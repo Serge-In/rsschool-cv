@@ -18,8 +18,6 @@ Hello, my name is Sergei. I am a developer of CRM and ERP systems within 7 years
 
 .Net (C#, VB), VBA, SQL, Lua, JavaScript, Html, Css, Git, GitHub, VisualStudio, VScode
 
-### Code example
-
 ### Experience
 
 ### Education

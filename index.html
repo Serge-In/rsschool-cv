@@ -1,110 +1,105 @@
 <!DOCTYPE html>
-<html>
-    <header>rsschool-cv
-        <link href="style.css" rel="stylesheet" type="text/css">
-    </header>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>rsschool-cv</title>
+    </head>
     
     <body> 
-    <div class="cl_container">
-        <main class="cl_main">
-
-            <h1>Sergei Iniutkin<h1> 
-
-            <h2>Web developer</h2>                 
-        
-            <h2>Contact information</h2>
-                <ul>
-                    <li><a href="mailto:solnanebe@gmail.com" class="contact_link">solnanebe@gmail.com</a></li>
-                    <li><a href="https://github.com/Serge-In" target="_blank" class="contact_link">GitHub:Serge-In</a></li>
-                    <li>Discord: Serge-In</li>
-                    
-                </ul>
-                
-            <h2>About myself</h2>
-            <p>
-                Hello, my name is Sergei. I am a developer of CRM and ERP systems within 7 years. 
-                The scope of my experience includes data analysis and development applications for trading on the stock exchange, 
-                financial management, accounting and astronomy calculations. I am currently studying web technologies. 
-                My goal is to become a full-stack developer in a year's time.
-            </p>
-        
-        
-            <h2>Technologies</h2>
-        
-                <p>
-                    .Net (C#, VB), VBA, SQL, Lua, JavaScript, Html, Css, Git, GitHub, VisualStudio, VScode
-
-                </p>                
-        
-            <h2>Code example:</h2>
-            
-                <code><pre>
-                <br>
-                '2021-04-02 построить шкалу времени<br>
-                 Function diagScaleTime(aCandles, CandleStep, ScaleTimeStepTime)<br>
-                 <br>
-                    'массив подписей шкалы времени для массива aCandles<br>
-                     ReDim aScaleTime(UBound(aCandles, 1), 2)<br>
-                  <br>
-                     'ожидаемое время первой подписи<br>
-                      CandleTimeNext = aCandles(1, 2) 
-                    <br>
-                        For i = 1 To UBound(aCandles, 1)<br>
-                    <br>
-                            If aCandles(i, 2) >= CandleTimeNext Then<br>
-                                'создать подпись (время)<br>    
-                                 aScaleTime(i, 1) = aCandles(i, 2) <br> 
-                                 <br> 
-                                 '+ мин шаг между подписями<br>
-                                 i = i + CandleStep - 1 <br> 
-                                 <br> 
-                                 'ожидаемое время следующей подписи<br> 
-                                 CandleTimeNext = CandleTimeNext + ScaleTimeStepTime <br>
-                            End If<br>
-                        Next i<br>
-                    <br>
-                    diagScaleTime = aScaleTime 'вернуть массив подписей<br>
-                End Function<br>
-                
-                </pre></code>
-            
-            <h2>Experience</h2>
-                <p>
-                    
-                </p>
-
-            <h2>Education</h2>
-                <p>
-                    Saint-Petersburg state university of economics, Microsoft Learn, ITVDN, Udemy, RS School, Self-Studing
-                </p>
-            
-            <h2>Languages</h2>
-
-                <ul>
-                    <li>English – A2</li>
-                    <li>Russian - Native</li>
-                </ul>
-        
-        </main>
-     
+        <div class="c_wrapper">
     
-        <footer class="cl_footer">
         
-        <div>
-            <a href="https://github.com/Serge-In" target="_blank" class="contact_link">GitHub:Serge-In</a>
-        </div>
-        <div>
-            <img src="images/rs-logo.svg" class="footer_img" alt="">
-        </div>
-        <div>
-            <a href="https://rs.school/js-stage0/" class="footer_link">RSSchool JS course</a>
-        </div>
-        <div>
-            <time>2022</time>
-        </div>
-        </footer>
-    
-    </div>
+            <div class="c_left_side">
+                <h1 class="c_name">
+                    Sergei <br>
+                    Iniutkin
+                </h1>
+
+
+                <div class="c_photo">
+                    <img src="./images/my_photo.png" alt="My photo" width="190">
+                </div>
+
+                <h2 class="c_profession">
+                    Junior<br>
+                    web developer</h2>
+                
+                <div class="c_contacts">
+                    <ul>
+                        <li><a href="mailto:solnanebe@gmail.com" class="c_contact_link">solnanebe@gmail.com</a></li>
+                        <li><a href="https://github.com/Serge-In" target="_blank" class="c_contact_link">GitHub:Serge-In</a></li>
+                        <li>Discord: Serge-In</li>
+                    </ul>
+                </div>
+
+                <nav class="c_navigation">
+
+                </nav>
+            </div><!--class="left_side"-->
+
+            <div class="c_right_side"> 
+                <main class="c_main">
+              
+                    <h2>About myself</h2>
+                        <p>
+                            Hello, my name is Sergei. <br>
+                            I am a developer of CRM and ERP systems within 7 years. <br>
+                            The scope of my experience includes data analysis and development applications <br>
+                            for trading on the stock exchange, financial management, accounting and astronomy calculations. <br>
+                            I am currently studying web technologies.<br> 
+                            My goal is to become a full-stack developer in a year's time.
+                        </p>
+                            
+                    <h2>Technologies</h2>
+                        <p>
+                            .Net (C#, VB), VBA, SQL, Lua, JavaScript, Html, Css, Git, GitHub, VisualStudio, VScode
+                        </p>                
+                
+                    <h2>Experience</h2>
+                        <p>
+                        My first web project in progress:  
+                        <a href="https://serge-in.github.io/rsschool-cv/cv" target="_blank" class="contact_link">rsschool-cv</a>
+                        </p>
+
+                    <h2>Education</h2>
+                        <p>
+                        Saint-Petersburg state university of economics, <br>
+                        Coursera, Microsoft Learn, ITVDN, Udemy, RS School, <br>
+                        Self-Studing
+                        </p>
+                    
+                    <h2>Languages</h2>
+                        <ul>
+                            <li>English – A2</li>
+                            <li>Russian - Native</li>
+                        </ul>
+
+                </main>
+      
+                <footer class="c_footer">
+                
+                    <div>
+                        <a href="https://github.com/Serge-In" target="_blank" class="c_contact_link">
+                            <img class="c_gitHub_img" src="./images/gitHubLogoCircle.png" alt="GitHub:Serge-In">
+                        </a>
+                     </div>
+
+                    <div>
+                        <time>2022</time>
+                    </div>
+
+                    <div>
+                        <a href="https://rs.school/js/" class="c_footer_link">
+                            <img class="c_rsschool_img" src="./images/rs-logo.svg" alt="RSSchool">
+                        </a>
+                    </div>
+                    
+                </footer>
+            </div><!--class="c_right_side"-->
+        
+        </div><!--class="c_wrapper"-->
     </body>
         	
 </html>
