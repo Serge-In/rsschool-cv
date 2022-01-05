@@ -14,7 +14,7 @@
             <div class="c_left_side">
                 <header>
                     <h1 class="c_name">
-                        Sergei Iniutkin
+                        SERGEI INIUTKIN
                     </h1>
                 </header>
 
@@ -28,25 +28,29 @@
                 
                 
                 <div class="c_contacts">
+                    <ul>
                         <li><a href="mailto:solnanebe@gmail.com" class="c_contact_link">solnanebe@gmail.com</a></li>
                         <li><a href="https://github.com/Serge-In" target="_blank" class="c_contact_link">GitHub:Serge-In</a></li>
                         <li>Discord: Serge-In</li>
+                    </ul>
                 </div>
                 <br>
-                <p class="c_location">
-                    location:<br>
-                    Saint-Petersburg<br>
-                    Russia</p>
+                <p class="c_location">Saint-Petersburg, Russia</p>
+                 
+                    
                 <br>
                 <br>
 
                 <nav class="c_navigation">
-
-                    <li><a href="#about">About myself</a>
-                    <li><a href="#skills">Skills</a>
-                    <li><a href="#experience">Web experience</a>
-                    <li><a href="#education">Education</a>
-                    <li><a href="#languages">Languages</a>
+                    <ul>
+                        <li><a href="#about">About myself</a>
+                        <li><a href="#skills">Skills</a>
+                        <li><a href="#experience">Web experience</a>
+                        <li><a href="#education">Education</a>
+                        <li><a href="#languages">Languages</a>
+                        <li><a href="#code">Code example</a>
+                            
+                    </ul>
                 </nav>
             </div><!--class="left_side"-->
 
@@ -68,10 +72,12 @@
                             
                     <h2 id="skills">Skills</h2>
                         <p>
-                            JavaScript, HTML, CSS <br>
-                            .Net (C#, VB), VBA, SQL, Lua <br>
-                            Git, GitHub<br> 
-                            VisualStudio, VScode, Figma
+                            <ul>
+                                <li>JavaScript, HTML, CSS </li>
+                                <li>.Net (C#, VB), VBA, SQL, Lua </li>
+                                <li>Git, GitHub</li> 
+                                <li>VisualStudio, VScode, Figma</li>
+                            </ul>
                         </p>                
                 
                     <h2 id="experience">Web experience</h2>
@@ -92,9 +98,28 @@
                         English – A2<br>
                         Russian - Native<br>
                         </p>
+                    
+                    <h2 id="code">Code example</h2>
+
+<code class="c_code">                            
+<p>Function diagScaleTime(aCandles, CandleStep, ScaleTimeStepTime)
+    ReDim aScaleTime(UBound(aCandles, 1), 2)
+    CandleTimeNext = aCandles(1, 2) 
+    For i = 1 To UBound(aCandles, 1)
+            If aCandles(i, 2) >= CandleTimeNext Then
+                aScaleTime(i, 1) = aCandles(i, 2) 
+                i = i + CandleStep - 1
+                CandleTimeNext = CandleTimeNext + ScaleTimeStepTime 
+            End If
+    Next i
+    diagScaleTime = aScaleTime
+End Function
+</p>
+</code>
 
                 </main>
-      
+      <p></p>
+
                 <footer class="c_footer">
                 
                     <div>
