@@ -20,7 +20,7 @@ Hello, my name is Sergei.
 I am currently studying web technologies.  
 The scope of my experience includes data analysis and   
 development applications for trading on the stock exchange,   
-financial management, accounting and astronomy calculations.  
+financial management, accounting and astronomical calculations.  
 I am a developer of CRM and ERP systems within 7 years.   
 My goal is to become a full-stack developer in a year's time'.  
 
