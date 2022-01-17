@@ -1,0 +1,313 @@
+html {
+    scroll-behavior: smooth;
+    
+  }
+
+a {
+    text-decoration: none;
+}
+body{
+    border:1px dashed rgb(235, 235, 177);
+    /*google fonts*/
+
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    width: 1440px;
+    margin-top: 0;/*-40px;*/
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+
+    font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 50px;
+        /* identical to box height, or 250% */
+        color: #FFFFFF;
+        
+       
+  }
+
+h{
+    font-family: Merriweather;
+    font-style: normal;
+    
+    /* identical to box height, or 200% */
+    color: #FFFFFF;
+
+}
+
+.cont {
+    border:1px dashed rgb(138, 138, 5);
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+  }
+
+  
+.header{
+    /*Для <header> не используйте позиционирование 
+    fixed и sticky, так как это затруднит проверку макета/*
+    /*position: fixed;*/
+    background-image: url('./assets/img/bg.jpg');
+    background-position: center 0px;
+    margin-left: auto;
+    margin-top: 0;
+    height: 90px;
+    /*padding-top: 20px;*/
+    border:1px dashed rgb(241, 37, 105);
+
+
+  }
+
+  .header_cont {
+    border:1px dashed chartreuse;
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+    display: flex;
+    
+    align-items: center;
+    
+    
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+        
+    background-image: url('./assets/svg/logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;  
+    transition: 0.3s;
+  }
+  .logo:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+      contrast(87%);
+  }
+
+.nav{
+    border:1px dashed rgb(236, 63, 63);
+    margin-left: auto;
+    }
+    
+.nav-list {
+    border:1px dashed rgb(44, 126, 202);
+        display: flex;
+        align-items: center;
+        
+        list-style: none;
+        
+      }
+
+.nav-link {
+    border:1px dashed rgb(175, 32, 168);
+        padding: 0 20px;
+        line-height: 50px;
+        transition: .3s;
+        color: #FFFFFF;
+      }
+
+.main {
+    border:1px dashed rgb(20, 207, 104);
+    height: 5292px;
+        margin-left: auto;
+        
+      }
+
+
+
+.background_cont {
+    border:1px dashed rgb(8, 213, 240);
+    background-image: url('./assets/img/bg.jpg');
+    background-position: center -90px;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 820px;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+
+.hero-wrapper {
+    border:1px dashed rgb(241, 37, 105);
+width: 500px;
+height: 330px;
+padding-left: 80px;
+padding-top: 160px;
+
+}
+
+.hero-title{
+    border:1px dashed rgb(29, 46, 201);
+height: 120px;
+left: 0%;
+right: 0%;
+margin-top: 0px;
+
+font-family: Merriweather;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 120px;
+/* identical to box height, or 200% */
+color: #FFFFFF;
+}
+
+.hero-text{
+    border:1px dashed rgb(241, 37, 105);
+height: 120px;
+width: 470px;
+left: 0px;
+margin-top: 130px;
+border-radius: nullpx;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 40px;
+color: #FFFFFF;
+}
+.hero-btn{
+    border:1px dashed rgb(26, 131, 201);
+    height: 55px;
+    width: 220px;
+    left: 0px;
+    /*top: 275px;*/
+    right: 280px;
+    }
+
+.skills_cont {
+    border:1px dashed rgb(141, 247, 155);
+    height: 482px;
+    left: 0px;
+    
+}
+
+.section-title-wrapper {
+    border:1px dashed rgb(241, 37, 105);
+    margin: auto;
+    width: 50%;
+    background-image: linear-gradient(to top, #000 39px, #bdae82 39px, #bdae82 41px, #000 41px);
+    
+}
+.section-title {
+    border:1px dashed rgb(147, 240, 85);
+    
+    font-family: Merriweather;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+color: #BDAE82;
+line-height: 80px;
+/* identical to box height, or 200% */
+
+text-align: center;
+background-color: #000;
+
+}
+
+
+.skills-items {
+    border:1px dashed rgb(77, 221, 240);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .skill-item {
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .skill-item:nth-child(1) {
+    background-image: url('./assets/svg/skills-item1.svg');
+    /*background-size: 62px 50px;*/
+  }
+  .skill-item:nth-child(2) {
+    background-image: url('./assets/svg/skills-item2.svg');
+    /*background-size: 62px 50px;*/
+  }
+  .skill-item:nth-child(3) {
+    background-image: url('./assets/svg/skills-item3.svg');
+    /*background-size: 62px 50px;*/
+  }
+  .skill-item:nth-child(4) {
+    background-image: url('./assets/svg/skills-item4.svg');
+    /*background-size: 62px 50px;*/
+  }
+
+  .portfolio_cont{
+    border:1px dashed rgb(241, 37, 105);
+    height: 1500px;
+    
+}
+/*-------------video*/
+.video_cont{
+    border:1px dashed rgb(61, 121, 231);
+    height: 945px;
+
+    display: flex;
+    flex-flow:column nowrap;
+    /*align-items: flex-end;*/
+    /*align-content: flex-end;*/
+    justify-content:flex-end safe;
+    align-items:center;
+    /*justify-items: end;*/
+    padding: 0 20px;
+    
+}
+.video-title_item{
+    border:1px dashed rgb(200, 233, 16);
+    height: 80px;
+ 
+}
+.video-bg_item{
+    border:1px dashed rgb(28, 211, 104);
+    height: 705px;
+    width: 1440px;
+    /*
+    background-image: url('./assets/img/video-bg.jpg');
+    background-size: 1400px;
+    background-repeat: no-repeat;*/
+}
+
+/*---------------price*/
+.price_cont{
+    border:1px dashed rgb(241, 37, 105);
+    height: 845px;
+  
+}
+.contacts_cont{
+    border:1px dashed rgb(61, 121, 231);
+    height: 700px;
+    background-image: url('./assets/img/contacts.jpg');
+
+}
+.footer_cont{
+    border:1px dashed rgb(39, 226, 33);
+    height: 150px;
+    
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+
+    font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 50px;
+        /* identical to box height, or 250% */
+        color: #FFFFFF;
+
+}
+.c_gitHub_img {
+    width: 45px;
+    margin: 5px, 10px, 5px, 10px;
