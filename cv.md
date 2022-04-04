@@ -30,7 +30,6 @@ My goal is to become a full-stack developer in a year's time'.
 ### Skills
 
 JavaScript, HTML, CSS  
-.Net (C#, VB), VBA, SQL, Lua  
 Git, GitHub   
 VisualStudio, VScode, Figma  
 
@@ -45,7 +44,7 @@ My first web project in progress
 ### Education
 
 Saint-Petersburg state university of economics  
-Coursera, Microsoft Learn, Udemy, ITVDN, RS School   
+Coursera, Microsoft Learn, Udemy, RS School   
 Self-teaching
 
 
