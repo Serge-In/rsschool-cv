@@ -50,5 +50,5 @@ Self-teaching
 ---------------------------
 ### Languages
 
-English – A2  
+English – B1  
 Russian - Native
