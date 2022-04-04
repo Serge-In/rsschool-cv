@@ -47,7 +47,6 @@ Saint-Petersburg state university of economics
 Coursera, Microsoft Learn, Udemy, RS School   
 Self-teaching
 
-
 ---------------------------
 ### Languages
 
