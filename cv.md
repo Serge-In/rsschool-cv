@@ -25,6 +25,7 @@ I am a developer of CRM and ERP systems within 7 years.
 My goal is to become a full-stack developer in a year's time'.  
 
 
+
 ---------------------------
 
 ### Skills
@@ -50,5 +51,5 @@ Self-teaching
 ---------------------------
 ### Languages
 
-English – B1  
+English – B1
 Russian - Native
