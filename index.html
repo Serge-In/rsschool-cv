@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./images/favSI.png" type="image/png">
+        <title>rsschool-cv</title>
+    </head>
+    
+    <body> 
+        <div class="c_wrapper">
+    
+        
+            <div class="c_left_side">
+                <header>
+                    <h1 class="c_name">
+                        SERGEI INIUTKIN
+                    </h1>
+                </header>
+
+
+                <div class="c_photo">
+                    <img src="./images/my_photo.png" alt="My photo" width="190">
+                </div>
+
+                <h2 class="c_profession">web developer</h2>
+
+                
+                
+                <div class="c_contacts">
+                    <ul>
+                        <li><a href="mailto:solnanebe@gmail.com" class="c_contact_link">solnanebe@gmail.com</a></li>
+                        <li><a href="https://github.com/Serge-In" target="_blank" class="c_contact_link">GitHub:Serge-In</a></li>
+                        <li>Discord: Serge-In</li>
+                    </ul>
+                </div>
+                <br>
+                <p class="c_location">Saint-Petersburg, Russia</p>
+                 
+                    
+                <br>
+                <br>
+
+                <nav class="c_navigation">
+                    <ul>
+                        <li><a href="#about">About myself</a>
+                        <li><a href="#skills">Skills</a>
+                        <li><a href="#experience">Web experience</a>
+                        <li><a href="#education">Education</a>
+                        <li><a href="#languages">Languages</a>
+                        <li><a href="#code">Code example</a>
+                            
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="c_right_side"> 
+                <main class="c_main">
+                    
+                    <h2 id="about">About myself</h2>
+                        <p>
+                            Hello, my name is Sergei. <br>
+                            I am currently studying web technologies.<br>
+                            <br>
+                            The scope of my experience includes data analysis and <br>
+                            development applications for trading on the stock exchange,<br>
+                            financial management, accounting and astronomical calculations. <br>
+                            I am a developer of CRM and ERP systems within 7 years. <br> 
+                            My goal is to become a full-stack developer in a year's time.
+                                                                                   
+                        </p>
+                            
+                    <h2 id="skills">Skills</h2>
+                            <ul>
+                                <li>JavaScript, HTML, CSS </li>
+                                <li>Git, GitHub</li> 
+                                <li>VisualStudio, VScode, Figma</li>
+                            </ul>
+   
+                    <h2 id="experience">Web experience</h2>
+                        <p>
+                        My first web project in progress:  
+                        <a href="https://serge-in.github.io/rsschool-cv/" target="_blank" class="contact_link">rsschool-cv</a>
+                        </p>
+                        
+                    <h2 id="education">Education</h2>
+                        <p>
+                        Saint-Petersburg state university of economics <br>
+                        Coursera, Microsoft Learn, RS School <br>
+                        Self-teaching
+                        </p>
+                    
+                    <h2 id="languages">Languages</h2>
+                        <p>
+                        English – B2<br>
+                        Russian - Native<br>
+                        </p>
+                    
+                    <h2 id="code">Code example</h2>
+
+<code class="c_code">                            
+Function diagScaleTime(aCandles, CandleStep, ScaleTimeStepTime)
+    ReDim aScaleTime(UBound(aCandles, 1), 2)
+    CandleTimeNext = aCandles(1, 2) 
+    For i = 1 To UBound(aCandles, 1)
+            If aCandles(i, 2) >= CandleTimeNext Then
+                aScaleTime(i, 1) = aCandles(i, 2) 
+                i = i + CandleStep - 1
+                CandleTimeNext = CandleTimeNext + ScaleTimeStepTime 
+            End If
+    Next i
+    diagScaleTime = aScaleTime
+End Function
+</code>
+
+                </main>
+      <p></p>
+
+                <footer class="c_footer">
+                
+                    <div>
+                        <a href="https://github.com/Serge-In" target="_blank" class="c_contact_link">
+                            <img class="c_gitHub_img" src="./images/gitHubLogoCircle.png" alt="GitHub:Serge-In">
+                        </a>
+                     </div>
+
+                    <div>
+                        <time>2022</time>
+                    </div>
+
+                    <div>
+                        <a href="https://rs.school/js/" class="c_footer_link">
+                            <img class="c_rsschool_img" src="./images/rs-logo.svg" alt="RSSchool">
+                        </a>
+                    </div>
+                    
+                </footer>
+            </div>
+        
+        </div>
+    </body>
+        	
+</html>

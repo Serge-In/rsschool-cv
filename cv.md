@@ -24,6 +24,7 @@ financial management, accounting and astronomical calculations.
 I am a developer of CRM and ERP systems within 7 years.   
 My goal is to become a full-stack developer in a year's time'.  
 
+
 ---------------------------
 
 ### Skills
@@ -43,7 +44,7 @@ My first web project in progress
 ### Education
 
 Saint-Petersburg state university of economics  
-Coursera, Microsoft Learn, Udemy, RS School   
+Coursera, Microsoft Learn, RS School   
 Self-teaching
 
 ---------------------------
